@@ -1,0 +1,7 @@
+@mixin grayscale {
+  filter: grayscale(1);
+
+  &:hover {
+    filter: grayscale(0);
+  }
+}

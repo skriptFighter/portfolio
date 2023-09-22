@@ -1,0 +1,36 @@
+.footer {
+  &__text-box {
+  }
+
+  &__icons-box {
+  }
+
+  &__link {
+    &:not(:last-child) {
+      margin-right: 6rem;
+    }
+  }
+
+  &__icon {
+    width: 6rem;
+    height: 6rem;
+    color: $color-grey;
+    transition: all 0.4s linear;
+
+    &--github:hover {
+      color: $color-white;
+    }
+
+    &--behance:hover {
+      color: #1666f7;
+    }
+
+    &--dribble:hover {
+      color: #e14a84;
+    }
+
+    &--linked-in:hover {
+      color: #0b63bd;
+    }
+  }
+}

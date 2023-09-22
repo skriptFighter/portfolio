@@ -1,0 +1,23 @@
+.main-heading {
+  width: 100%;
+  height: 50vh;
+  animation: opacity 3s linear;
+
+  &__link {
+    margin: 0 auto;
+  }
+
+  &__icon {
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    color: $color-white;
+    align-self: flex-end;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $color-primary-light;
+    }
+  }
+}

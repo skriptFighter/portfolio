@@ -1,0 +1,13 @@
+.section__clients {
+  &--img-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+
+  &--img {
+    width: 60%;
+    transition: all 0.5s linear;
+    @include grayscale;
+  }
+}
