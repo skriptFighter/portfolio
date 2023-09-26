@@ -6,7 +6,7 @@ body {
 
 .heading__primary {
   display: block;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   color: $color-grey;
   font-size: 5rem;
@@ -21,7 +21,6 @@ body {
 
 .heading__secondary {
   display: block;
-  width: 30%;
 
   color: $color-grey;
   font-size: 3rem;
@@ -29,7 +28,7 @@ body {
 
   &--span {
     color: $color-white;
-    font-size: 3rem;
+
     font-weight: 700;
   }
 }
@@ -49,6 +48,7 @@ body {
   &--span {
     color: $color-white;
     font-weight: 700;
+    transition: color 20s linear;
   }
 }
 
@@ -60,7 +60,7 @@ body {
 .footer__p {
   font-size: 2rem;
   font-weight: 300;
-  color: $color-grey;
+  color: $color-white;
 
   &--span {
     color: $color-white;

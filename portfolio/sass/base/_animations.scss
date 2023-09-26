@@ -7,15 +7,41 @@
   }
 }
 
-@keyframes floating {
+@keyframes grayScale {
   0% {
-    transform: translateY(0%);
+    filter: grayscale(1);
   }
-
+  70% {
+    filter: grayscale(0.9);
+  }
+  80% {
+    filter: grayscale(0.7);
+  }
   100% {
-    transform: translate(2%, 2%);
+    filter: grayscale(0);
   }
 }
+
+@keyframes textColor {
+  0% {
+    color: $color-grey;
+  }
+  100% {
+    color: $color-white;
+  }
+}
+
+@keyframes textColor {
+  0% {
+    color: $color-grey;
+  }
+  100% {
+    color: $color-white;
+  }
+}
+
+/**************************/
+//Observer Animations
 
 .hidden {
   opacity: 0;
@@ -38,13 +64,17 @@
   transition: all 0.6s linear;
 }
 
-.hidden-top {
-  transform: translateY(100%);
-  transition: all 0.6s linear;
+.show-l,
+.show-r {
+  transform: translateX(0%);
 }
 
-.show-l,
-.show-r,
-.show-t {
-  transform: translateX(0%);
+.removeGrayScale {
+  animation: grayScale 5s linear;
+  animation-fill-mode: forwards;
+}
+
+.highlight {
+  animation: textColor 5s linear;
+  animation-fill-mode: forwards;
 }
