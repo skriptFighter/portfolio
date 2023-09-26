@@ -15,229 +15,270 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header grid--2cols u-marbot-16">
-      <div class="header__logo">
-        <h1>ZDELDEL</h1>
-      </div>
-      <div class="header__navigation">
-        <a href="#" class="header__navigation--item">Home</a>
-        <a href="#works" class="header__navigation--item">Work</a>
-        <a href="#about" class="header__navigation--item">About</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="main-heading grid--2rows u-marbot-16" id="main-heading">
-        <h1 class="heading__primary u-text-center">
-          i'm a designer specialising in
-          <span class="heading__primary--span">UX/UI</span> and
-          <span class="heading__primary--span">Ineraction Desing</span>
-        </h1>
-
-        <a href="" class="main-heading__link">
-          <ion-icon name="chevron-down" class="main-heading__icon"></ion-icon>
-        </a>
-      </section>
-
-      <section class="section__clients u-marbot-16" id="clients">
-        <h2 class="heading__secondary hidden">
-          Some of
-          <span class="heading__secondary--span">
-            the clients i have designed for</span
-          >
-        </h2>
-
-        <div class="section__clients--img-box u-martop-5 hidden">
-          <img
-            src="img/airbnb.png"
-            alt=""
-            class="section__clients--img hidden-left"
-          />
-          <img
-            src="img/google.png"
-            alt=""
-            class="section__clients--img hidden-left"
-          />
-          <img
-            src="img/microsoft.png"
-            alt=""
-            class="section__clients--img hidden-right"
-          />
-          <img
-            src="img/fedex.png"
-            alt=""
-            class="section__clients--img hidden-right"
-          />
+    <div class="container">
+      <header class="header grid--2cols-header">
+        <div class="header__logo">
+          <h1>ZDELDEL</h1>
         </div>
-      </section>
-
-      <section class="section__works u-marbot-16" id="works">
-        <div class="section__works--heading">
-          <h2 class="heading__secondary u-marbot-5 hidden">
-            Selected <span class="heading__secondary--span">Works</span>
-          </h2>
+        <div class="header__navigation">
+          <a href="#" class="header__navigation--item">Home</a>
+          <a href="#works" class="header__navigation--item">Work</a>
+          <a href="#about" class="header__navigation--item">About</a>
         </div>
+      </header>
 
-        <div class="section__works--content">
-          <div class="grid--2cols u-row-gap20">
-            <img
-              src="/img/work1.PNG"
-              alt="work"
-              class="section__works--img hidden hidden-left"
-            />
+      <main>
+        <section class="main-heading" id="main-heading">
+          <h1 class="heading__primary u-text-center u-marbot-12">
+            i'm a designer specialising in
+            <span class="heading__primary--span">UX/UI</span> and <br />
+            <span class="heading__primary--span multi-text"></span>
+          </h1>
 
-            <div class="section__works--text hidden">
-              <h3 class="heading__tertiary u-marbot-2">Real estate template</h3>
-              <p class="paragraph u-marbot-2">
-                Lorem ipsum sit amet consectetur dolor sit amet consectetur
-                <span class="paragraph--span">
-                  adipisicing elit. Vero dolore sit amet consectetur
-                  exercitationem nobis.</span
-                >
-              </p>
-              <p class="categorie u-marbot-2">Website design</p>
-              <a href="#" class="btn">
-                <span>View work</span>
-                <ion-icon name="chevron-forward" class="btn--icon"></ion-icon>
-              </a>
-            </div>
+          <a href="#clients" class="main-heading__link">
+            <ion-icon name="chevron-down" class="main-heading__icon" />
+          </a>
+        </section>
 
-            <div class="section__works--text hidden hidden-left">
-              <h3 class="heading__tertiary u-marbot-2">Real estate template</h3>
-              <p class="paragraph u-marbot-2">
-                Lorem ipsum sit amet consectetur dolor sit amet consectetur
-                <span class="paragraph--span">
-                  adipisicing elit. Vero dolore sit amet consectetur
-                  exercitationem nobis.</span
-                >
-              </p>
-              <p class="categorie u-marbot-2">Website design</p>
-              <a href="#" class="btn">
-                <span>View work</span>
-                <ion-icon name="chevron-forward" class="btn--icon"></ion-icon>
-              </a>
-            </div>
-
-            <img
-              src="/img/work1.PNG"
-              alt="work"
-              class="section__works--img hidden hidden-right"
-            />
-
-            <img
-              src="/img/work1.PNG"
-              alt="work"
-              class="section__works--img hidden"
-            />
-
-            <div class="section__works--text hidden hidden-right">
-              <h3 class="heading__tertiary u-marbot-2">Real estate template</h3>
-              <p class="paragraph u-marbot-2">
-                Lorem ipsum sit amet consectetur dolor sit amet consectetur
-                <span class="paragraph--span">
-                  adipisicing elit. Vero dolore sit amet consectetur
-                  exercitationem nobis.</span
-                >
-              </p>
-              <p class="categorie u-marbot-2">Website design</p>
-              <a href="#" class="btn">
-                <span>View work</span>
-                <ion-icon name="chevron-forward" class="btn--icon"></ion-icon>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="section__about grid--2cols u-align-items-c u-col-gap6 u-marbot-12 hidden"
-        id="about"
-      >
-        <div class="section__about--text hidden-left">
-          <h3 class="heading__tertiary u-marbot-2">A bit about me</h3>
-          <p class="paragraph u-marbot-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-            inventore vel quisquam aspernatur temporibus,
-            <span class="paragraph--span">
-              soluta exercitationem ex! Expedita molestiae obcaecati</span
+        <section class="section__clients u-marbot-20" id="clients">
+          <h2 class="heading__secondary hidden">
+            Some of
+            <span class="heading__secondary--span">
+              the clients <br />
+              i have designed for</span
             >
-          </p>
-        </div>
+          </h2>
 
-        <div
-          class="section__about--img-box grid--2cols u-align-items-c hidden-right"
-        >
-          <div class="section__about--img-box--left-side u-text-center">
+          <div class="section__clients--img-box u-martop-5 hidden">
             <img
-              src="/img/about1.jpg"
-              alt="about1"
-              class="section__about--img section__about--img--1"
+              src="img/airbnb.png"
+              alt=""
+              class="section__clients--img img hidden-left"
+            />
+            <img
+              src="img/google.png"
+              alt=""
+              class="section__clients--img img hidden-left"
+            />
+            <img
+              src="img/microsoft.png"
+              alt=""
+              class="section__clients--img img hidden-right"
+            />
+            <img
+              src="img/fedex.png"
+              alt=""
+              class="section__clients--img img hidden-right"
             />
           </div>
 
-          <div class="section__about--img-box--right-side">
+          <div class="section__clients--img-box2 u-martop-8 hidden">
             <img
-              src="/img/about2.jpg"
-              alt="about2"
-              class="section__about--img section__about--img--2"
+              src="img/airbnb.png"
+              alt=""
+              class="section__clients--img img hidden-left"
             />
+
             <img
-              src="/img/about3.jpg"
-              alt="about3"
-              class="section__about--img section__about--img--3"
+              src="img/microsoft.png"
+              alt=""
+              class="section__clients--img img hidden-right"
             />
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
 
-    <footer class="footer hidden hidden-top" id="footer">
-      <div class="footer__text-box u-text-center u-marbot-8">
-        <h1 class="heading__primary hidden">
-          Get <span class="heading__primary--span">in Touch.</span>
-        </h1>
+        <section class="section__works u-marbot-20" id="works">
+          <div class="section__works--heading">
+            <h2 class="heading__secondary u-marbot-5 hidden">
+              Selected <span class="heading__secondary--span">Works</span>
+            </h2>
+          </div>
 
-        <p class="footer__p hidden">So that we can talk more about...</p>
-      </div>
+          <div class="section__works--content grid u-row-gap20">
+            <div class="grid--2cols u-align-items-end">
+              <img
+                src="img/works/natours.jpg"
+                alt="work"
+                class="section__works--img img hidden hidden-left"
+              />
 
-      <div class="footer__icons-box u-text-center u-marbot-8 hidden">
-        <a
-          href="https://github.com/skriptFighter"
-          target="_blank"
-          class="footer__link"
+              <div class="section__works--text hidden">
+                <h3 class="heading__tertiary u-marbot-2">
+                  Real estate template
+                </h3>
+                <p class="paragraph u-marbot-2">
+                  Lorem ipsum sit amet consectetur dolor sit amet consectetur
+                  <span class="paragraph--span">
+                    adipisicing elit. Vero dolore sit amet consectetur
+                    exercitationem nobis.</span
+                  >
+                </p>
+                <p class="categorie u-marbot-2">Website design</p>
+                <a
+                  href="https://github.com/skriptFighter/Natours"
+                  target="_blank"
+                  class="btn"
+                >
+                  <span>View work</span>
+                  <ion-icon name="chevron-forward" class="btn--icon"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <div class="grid--2cols u-align-items-end">
+              <div class="section__works--text hidden hidden-left">
+                <h3 class="heading__tertiary u-marbot-2">
+                  Real estate template
+                </h3>
+                <p class="paragraph u-marbot-2">
+                  Lorem ipsum sit amet consectetur dolor sit amet consectetur
+                  <span class="paragraph--span">
+                    adipisicing elit. Vero dolore sit amet consectetur
+                    exercitationem nobis.</span
+                  >
+                </p>
+                <p class="categorie u-marbot-2">Website design</p>
+                <a
+                  href="https://github.com/skriptFighter/mealio"
+                  target="_blank"
+                  class="btn"
+                >
+                  <span>View work</span>
+                  <ion-icon name="chevron-forward" class="btn--icon"></ion-icon>
+                </a>
+              </div>
+
+              <img
+                src="img/works/mealio.jpg"
+                alt="work"
+                class="section__works--img img u-justify-self-end hidden hidden-right"
+              />
+            </div>
+
+            <div class="grid--2cols u-align-items-end">
+              <img
+                src="img/works/pig-game.jpg"
+                alt="work"
+                class="section__works--img img hidden"
+              />
+
+              <div class="section__works--text hidden hidden-right">
+                <h3 class="heading__tertiary u-marbot-2">
+                  Real estate template
+                </h3>
+                <p class="paragraph u-marbot-2">
+                  Lorem ipsum sit amet consectetur dolor sit amet consectetur
+                  <span class="paragraph--span">
+                    adipisicing elit. Vero dolore sit amet consectetur
+                    exercitationem nobis.</span
+                  >
+                </p>
+                <p class="categorie u-marbot-2">Website design</p>
+                <a
+                  href="https://github.com/skriptFighter/pig-game"
+                  target="_blank"
+                  class="btn"
+                >
+                  <span>View work</span>
+                  <ion-icon name="chevron-forward" class="btn--icon"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section__about grid--2cols u-align-items-c u-col-gap6 u-marbot-20 hidden"
+          id="about"
         >
-          <ion-icon
-            name="logo-github"
-            class="footer__icon footer__icon--github"
-          ></ion-icon>
-        </a>
+          <div class="section__about--text hidden-left">
+            <h3 class="heading__tertiary u-marbot-2">A bit about me</h3>
+            <p class="paragraph u-marbot-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              inventore vel quisquam aspernatur temporibus,
+              <span class="paragraph--span">
+                soluta exercitationem ex! Expedita molestiae obcaecati</span
+              >
+            </p>
+          </div>
 
-        <a href="" class="footer__link"
-          ><ion-icon
-            name="logo-behance"
-            class="footer__icon footer__icon--behance"
-          ></ion-icon
-        ></a>
-        <a href="" class="footer__link"
-          ><ion-icon
-            name="logo-dribbble"
-            class="footer__icon footer__icon--dribble"
-          ></ion-icon
-        ></a>
+          <div
+            class="section__about--img-box grid--2cols-about u-col-gap1 u-align-items-c"
+          >
+            <div class="section__about--img-box--left-side u-text-center">
+              <img
+                src="/img/about1.jpg"
+                alt="about1"
+                class="section__about--img img section__about--img--1 hidden hidden-left"
+              />
+            </div>
 
-        <a href="" class="footer__link">
-          <ion-icon
-            name="logo-linkedin"
-            class="footer__icon footer__icon--linked-in"
-          ></ion-icon
-        ></a>
-      </div>
+            <div class="section__about--img-box--right-side">
+              <img
+                src="/img/about2.jpg"
+                alt="about2"
+                class="section__about--img img section__about--img--2 hidden hidden-right"
+              />
+              <img
+                src="/img/about3.jpg"
+                alt="about3"
+                class="section__about--img img section__about--img--3 hidden hidden-right"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
 
-      <p class="footer__p u-text-center hidden">
-        Made with <span class="footer__p--span-heart">♥</span> by
-        <span class="footer__p--span">Zdeldel</span>
-      </p>
-    </footer>
+      <footer class="footer hidden" id="footer">
+        <div class="footer__text-box u-text-center u-marbot-8">
+          <h1 class="heading__primary hidden">
+            Get <span class="heading__primary--span">in Touch.</span>
+          </h1>
+
+          <p class="footer__p">So that we can talk more about...</p>
+        </div>
+
+        <div class="footer__icons-box u-text-center u-marbot-8 hidden">
+          <a
+            href="https://github.com/skriptFighter"
+            target="_blank"
+            class="footer__link"
+          >
+            <ion-icon
+              name="logo-github"
+              class="footer__icon footer__icon--github"
+            />
+          </a>
+
+          <a href="" class="footer__link"
+            ><ion-icon
+              name="logo-behance"
+              class="footer__icon footer__icon--behance"
+            ></ion-icon
+          ></a>
+          <a href="" class="footer__link"
+            ><ion-icon
+              name="logo-dribbble"
+              class="footer__icon footer__icon--dribble"
+            ></ion-icon
+          ></a>
+
+          <a href="" class="footer__link">
+            <ion-icon
+              name="logo-linkedin"
+              class="footer__icon footer__icon--linked-in"
+            ></ion-icon
+          ></a>
+        </div>
+
+        <p class="footer__p u-text-center">
+          Made with <span class="footer__p--span-heart">♥</span> by
+          <span class="footer__p--span">Zdeldel</span>
+        </p>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script
       type="module"
